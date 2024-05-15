@@ -1,0 +1,96 @@
+.logo{
+    animation-name: punisher;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+
+
+}
+
+@keyframes punisher{
+    from{
+        rotate: 0deg;
+    }
+    to{rotate: 360deg;}
+
+}
+
+
+
+
+.Kvikun img {
+    animation: Vinstri 1s forwards; 
+}
+
+@keyframes Vinstri {
+    from {transform: translateX(-100%); }
+    to {transform: translateX(0); 
+    }
+}
+
+
+
+.Kvikun2 img {animation: NidurOgUpp 1s forwards;
+    transform: translateY(100%);}
+
+@keyframes NidurOgUpp {
+    to {transform: translateY(0);}
+}
+
+
+
+.Kvikun3 img {
+    animation: Haegri 1s forwards; 
+}
+
+@keyframes Haegri {
+    from {
+        transform: translateX(100%); }
+    to {transform: translateX(0); }}
+
+
+
+.linkur {
+    text-decoration: none; 
+    color: #c53535; 
+    font-family: Arial, sans-serif; 
+    font-weight: bold; 
+    font-size: 24px; 
+    animation: linkur 1s infinite alternate; 
+}
+
+@keyframes linkur {
+    from {text-shadow: 0 0 5px rgb(190, 81, 30), 0 0 10px rgb(190, 72, 42), 0 0 15px rgb(172, 52, 22); }
+    to {
+    text-shadow: 0 0 10px rgb(145, 34, 26), 0 0 15px #c53535, 0 0 20px rgb(177, 42, 18); 
+    }
+}
+
+
+
+
+.texti img {
+    animation: shake 0.5s infinite alternate;
+}
+
+@keyframes shake {
+    0% {transform: translate(-50%, -50%) rotate(0deg);}
+    50% {
+       
+       
+        transform: translate(-50%, -50%) rotate(5deg);
+    } 100% {
+        transform: translate(-50%, -50%) rotate(-5deg);}
+}
+
+
+@keyframes upp {
+    from { opacity: 0;}
+    to {opacity: 1;}}
+
+@keyframes shakeogupp {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    50% {transform: translate(-50%, -50%) rotate(5deg);}
+    to {
+        transform: translate(-50%, -50%) rotate(-5deg);}}
